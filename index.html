@@ -11,12 +11,12 @@
     button { background: #28a745; color: white; border: none; padding: 12px 24px; font-size: 16px; border-radius: 6px; cursor: pointer; margin-top: 15px; }
   </style>
 
-  <!-- PushAlert Unified Code -->
+  <!-- PushAlert Unified Code (کد جدید شما) -->
   <script type="text/javascript">
       (function(d, t) {
           var g = d.createElement(t),
           s = d.getElementsByTagName(t)[0];
-          g.src = "https://cdn.pushalert.co/unified_0feace4d089b62f0948d07da3d5ad805.js";
+          g.src = "https://cdn.pushalert.co/unified_769eff4a37444679a920fb99152addd8.js";
           s.parentNode.insertBefore(g, s);
       }(document, "script"));
   </script>
@@ -24,8 +24,8 @@
 </head>
 <body>
   <div class="card">
-    <h2>  no</h2>
-    <p>NO</p>
+    <h2>دریافت  </h2>
+    <p>no</p>
     <button onclick="requestNotification()">فعال‌سازی نوتیفیکیشن</button>
   </div>
 
@@ -40,7 +40,7 @@
           if (permission === 'granted') {
             alert('دسترسی نوتیفیکیشن با موفقیت تایید شد!');
           } else if (permission === 'denied') {
-            alert('دسترسی نوتیفیکیشن مسدود شده است. لطفاً از تنظیمات مرورگر آن را باز کنید.');
+            alert('دسترسی نوتیفیکیشن مسدود است. لطفاً از تنظیمات مرورگر آن را Allow کنید.');
           }
         });
       } else {
