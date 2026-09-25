@@ -26,5 +26,11 @@
     <h2>دریافت نوتیفیکیشن بورس</h2>
     <p>برای دریافت پیام‌های جدید TSETMC روی گوشی، اجازه دسترسی نوتیفیکیشن را تایید کنید.</p>
   </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js', { scope: './' });
+    }
+  </script>
 </body>
 </html>
